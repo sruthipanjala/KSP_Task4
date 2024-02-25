@@ -1,1 +1,46 @@
+<!DOCTYPE>
+<html>
+<head>
+    <h3>student registration form</h3>
+    <link rel="stylesheet" href="main.css">
+</head>
 
+<body>
+    <form>
+        <label>First Name:-</label>
+        <input for="fname" type="text" requried><br><br>
+
+        <label>Last Name:-</label>
+        <input for="Lname" type="text" requried><br><br>
+
+        <label>Date of birth:-</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+
+        <label>Mobile No:-</label>
+        <input for="number" type="number" requried><br><br>
+
+        <label>Email id:-</label>
+        <input for="mail" type="email" requried><br><br>
+
+        <label>departments:-</label>
+        <select name="dropdown">
+           <option value = "CSE" selected>CSE</option>
+            <option value = "AIMl">AIML</option>
+            <option value = "CSD">CSD</option>
+         </select><br><br>
+
+        <label>gender:-</label>
+        <input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female"> Female <br><br>
+
+        <label>Student belong to:-</label>
+        <input type="checkbox" name="text" value="hostel" /> Hostel <br/><input type="checkbox" name="text" value="days" /> Days<br/><br>
+
+        <label>Address:-</label><br>
+        <textarea for="address" rows="5" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+
+</html>
